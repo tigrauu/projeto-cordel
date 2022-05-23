@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: white;
+    --cor1: black;
+    --cor2: rgba(0, 0, 0, 0.3);
+    --fonte0: Passion One, cursive;
+    --fonte1: Sriracha, cursive;
+    --fonte2: Verdana, Geneva, Tahoma, sans-seriff;
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor0);
+    text-align: center;
+    font-family: var(--fonte0);
+    font-variant: small-caps;
+}
+
+header h1 {
+    display: block;
+    font-size: 10vw;
+    letter-spacing: 4px; 
+    font-weight: bolder;
+}
+
+header a {
+    color: var(--cor0);
+    font-size: 1em;
+    text-decoration: none; 
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section.texto {
+    background-color: var(--cor0);
+    color: var(--cor1);
+    padding: 100px 0px 100px 30px
+}
+
+section p {
+    color: var(--cor1);
+    line-height: 2em;
+    font-family: var(--fonte1);
+    font-size: 3.5vw;
+    padding-bottom: 100px;
+}
+
+section#girassol.imagem {
+    background-image: url(.//pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px 100px 30px
+}
+
+section.imagem p {
+    display: inline-block;
+    background-color: var(--cor2);
+    color: var(--cor0);
+    line-height: 2em;
+    font-family: var(--fonte1);
+    font-size: 3.5vw;
+    padding: 10px;
+}
+
+section#livro.imagem {
+    background-image: url(./pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px 100px 30px
+}
+
+footer {
+    background-color: var(--cor1);
+    color: var(--cor0);
+    text-align: center;
+    font-family: var(--fonte0);
+    font-size: 2vw;
+    text-shadow: 1px 1px 1px var(--cor1);
+}
+
+footer p {
+    padding: 30px;
+}
+
+footer a {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+a :visited {
+        color: var(--cor0);
+}
